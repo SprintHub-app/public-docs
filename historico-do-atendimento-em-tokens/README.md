@@ -16,7 +16,7 @@ Na ação, escolha **Email IMAP**. No campo **Conteúdo do Email**, clique no í
 
 ![Os quatro tokens de histórico no seletor de tokens](screenshots/02-tokens-no-seletor.png)
 
-Digite "Histórico" na busca do seletor para ver só os quatro.
+Digite "Histórico" na busca do seletor para ver só os quatro. Os nomes mais longos aparecem cortados no seletor; para diferenciar, as duas versões em HTML para e-mail têm um ícone de envelope.
 
 ## Quais são os tokens?
 
@@ -44,7 +44,7 @@ O histórico completo é o registro do atendimento. Ele serve para auditoria, pa
 
 Na comparação abaixo, a mesma conversa aparece nas duas versões. Os itens marcados são os que só o histórico completo traz.
 
-![A mesma conversa no histórico de mensagens e no histórico completo](screenshots/04-comparacao-html.png)
+![A mesma conversa no histórico de mensagens e no histórico completo](screenshots/03-comparacao-html.png)
 
 > **Atenção às notas internas.** O histórico completo leva para fora do SAC tudo o que a equipe anotou, inclusive comentários que nunca seriam ditos ao cliente, como "cliente comparando com concorrente". Se o e-mail ou o webhook vai para o contato, use o histórico de mensagens.
 
@@ -60,7 +60,7 @@ As versões em **texto** escrevem uma linha por mensagem, com a data, o autor e 
 
 Imagens, áudios e arquivos aparecem entre colchetes, com o link. Use a versão em texto quando o destino não entende HTML: mensagem de WhatsApp, webhook, anotação, campo do CRM, instrução para um agente de IA.
 
-![Histórico de mensagens e histórico completo em texto](screenshots/03-comparacao-texto.png)
+![Histórico de mensagens e histórico completo em texto](screenshots/04-comparacao-texto.png)
 
 As versões em **HTML para e-mail** desenham a conversa em balões, como no chat: o contato à esquerda, a equipe à direita. Os links ficam clicáveis, a imagem aparece em miniatura e abre no tamanho original com um clique, e áudios e arquivos viram links. No histórico completo, as notas internas aparecem num balão amarelo e os registros do sistema numa linha cinza no centro (veja a comparação da seção anterior). Use a versão HTML no corpo de um e-mail.
 
