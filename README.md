@@ -7,6 +7,7 @@
 | [Documentos](documentos/) | 19 | Escrever, organizar e compartilhar documentos em equipe, com permissões, histórico, GitHub e a central de ajuda pública. |
 | [Modelos de Mensagem](modelos-de-mensagem/) | 11 | Criar modelos para cinco canais, aprovar na Meta, organizar em pastas e etiquetas e usar no atendimento. |
 | [Tarefas](tarefas/) | 22 | Quadros, etapas, visualizações, automações, recorrência e apontamento de horas. |
+| [Quiz](quiz/) | 1 | Salvar as respostas do quiz em objetos customizados ligados ao contato, criando um objeto novo ou atualizando o que o contato já tem. |
 | [Consumo Meta (WhatsApp)](consumo-meta-whatsapp/) | 1 | Quanto a Meta cobra pelas mensagens do WhatsApp oficial: franquia gratuita do mês, custo por categoria e por número, rateio por responsável e destaque das mensagens cobradas no chat. |
 
 ## Como o repositório está organizado
