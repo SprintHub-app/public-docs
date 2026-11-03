@@ -10,13 +10,27 @@ Os tokens ficam no seletor de tokens, na categoria **Atendimentos**. O caminho m
 
 `SAC >> Automações >> Nova automação >> Ações >> Nova Ação >> Enviar email para o contato`
 
-Na ação, escolha **Email IMAP**. No campo **Conteúdo do Email**, clique no ícone de etiqueta da barra de ferramentas para abrir o seletor.
+Passo a passo:
+
+**1. Abra as automações do SAC.** No menu do SAC, clique em **Automações**. A tela lista as automações que já existem. Clique em **Nova automação**, no topo.
 
 ![Tela de automações do SAC](screenshots/01-automacoes-do-sac.png)
 
-![Os quatro tokens de histórico no seletor de tokens](screenshots/02-tokens-no-seletor.png)
+**2. Dê um título e adicione uma ação.** A automação abre num painel lateral. Preencha o **Título** e, na seção **Ações**, clique em **Nova Ação**.
 
-Digite "Histórico" na busca do seletor para ver só os quatro. Os nomes mais longos aparecem cortados no seletor; para diferenciar, as duas versões em HTML para e-mail têm um ícone de envelope.
+![Nova automação com o título e o botão Nova Ação](screenshots/02-nova-automacao.png)
+
+**3. Escolha a ação de e-mail.** Na janela de ações, digite "email" na busca e escolha **Enviar email para o contato**.
+
+![Busca de ações com Enviar email para o contato](screenshots/03-escolher-acao.png)
+
+**4. Escolha Email IMAP e abra os tokens.** Na configuração da ação, clique em **Email IMAP**. Depois, na barra de ferramentas do **Conteúdo do Email**, clique no ícone de etiqueta.
+
+![Email IMAP selecionado e o ícone de etiqueta do conteúdo](screenshots/04-email-imap-e-tokens.png)
+
+**5. Escolha o token de histórico.** Digite "Histórico" na busca do seletor para ver só os quatro. Os nomes mais longos aparecem cortados no seletor; para diferenciar, as duas versões em HTML para e-mail têm um ícone de envelope. Ao clicar num token, ele é inserido no conteúdo do e-mail.
+
+![Os quatro tokens de histórico no seletor de tokens](screenshots/05-tokens-no-seletor.png)
 
 ## Quais são os tokens?
 
@@ -44,7 +58,7 @@ O histórico completo é o registro do atendimento. Ele serve para auditoria, pa
 
 Na comparação abaixo, a mesma conversa aparece nas duas versões. Os itens marcados são os que só o histórico completo traz.
 
-![A mesma conversa no histórico de mensagens e no histórico completo](screenshots/03-comparacao-html.png)
+![A mesma conversa no histórico de mensagens e no histórico completo](screenshots/06-comparacao-html.png)
 
 > **Atenção às notas internas.** O histórico completo leva para fora do SAC tudo o que a equipe anotou, inclusive comentários que nunca seriam ditos ao cliente, como "cliente comparando com concorrente". Se o e-mail ou o webhook vai para o contato, use o histórico de mensagens.
 
@@ -60,7 +74,7 @@ As versões em **texto** escrevem uma linha por mensagem, com a data, o autor e 
 
 Imagens, áudios e arquivos aparecem entre colchetes, com o link. Use a versão em texto quando o destino não entende HTML: mensagem de WhatsApp, webhook, anotação, campo do CRM, instrução para um agente de IA.
 
-![Histórico de mensagens e histórico completo em texto](screenshots/04-comparacao-texto.png)
+![Histórico de mensagens e histórico completo em texto](screenshots/07-comparacao-texto.png)
 
 As versões em **HTML para e-mail** desenham a conversa em balões, como no chat: o contato à esquerda, a equipe à direita. Os links ficam clicáveis, a imagem aparece em miniatura e abre no tamanho original com um clique, e áudios e arquivos viram links. No histórico completo, as notas internas aparecem num balão amarelo e os registros do sistema numa linha cinza no centro (veja a comparação da seção anterior). Use a versão HTML no corpo de um e-mail.
 
@@ -80,7 +94,7 @@ As versões em **HTML para e-mail** desenham a conversa em balões, como no chat
    - **Conteúdo do Email**: escreva a mensagem e, na linha em que a conversa deve aparecer, insira o token de histórico pelo ícone de etiqueta.
 5. Salve a ação e a automação.
 
-![Botão de tokens no campo Assunto](screenshots/05-token-no-assunto.png)
+![Botão de tokens no campo Assunto](screenshots/08-token-no-assunto.png)
 
 > **Atenção ao Assunto.** O seletor do Assunto mostra todos os tokens, inclusive os de histórico. Não coloque o histórico no Assunto: a conversa inteira viraria o título do e-mail. No Assunto, use tokens curtos, como o número do atendimento ou o nome do contato.
 
